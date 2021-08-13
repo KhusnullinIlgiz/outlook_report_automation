@@ -10,7 +10,7 @@ glob_path = "C:\Projects"
 class Handler_Class(object):
     def OnNewMailEx(self, receivedItemsIDs):
         """
-        This function is used for reading received emails fro outlook inbox folder.
+        This function is used for reading received emails from outlook inbox folder.
         It checks a subject of the Email and if the subject contains trigger phrase -> extract attachment/save/
         execute new_df function to generate reports from attached files.
         :param receivedItemsIDs:
