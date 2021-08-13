@@ -22,7 +22,7 @@ class Handler_Class(object):
             subject = mail.Subject
             print("getting a new email------")
             try:
-                if re.search('test reporting', subject.lower()) != None:
+                if re.search('grafana reporting', subject.lower()) != None:
                     subject = re.sub('grafana reporting', ' ', subject.lower())
                     subject = re.sub('[^0-9a-zA-Z]+', ' ', subject.lower())
                     subject = re.sub('ext', '', subject.lower())
