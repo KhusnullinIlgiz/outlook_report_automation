@@ -12,7 +12,7 @@ class Handler_Class(object):
         """
         This function is used for reading received emails from outlook inbox folder.
         It checks a subject of the Email and if the subject contains trigger phrase -> extract attachment/save/
-        execute new_df function to generate reports from attached files.
+        execute gen_report function to generate reports from attached files.
         :param receivedItemsIDs:
         :return: None
         """
